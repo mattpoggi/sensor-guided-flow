@@ -61,7 +61,7 @@ cd ../..
 
 ## Data
 
-Download [KITTI 2015 optical flow training set](http://www.cvlibs.net/datasets/kitti/eval_scene_flow.php?benchmark=stereo) and [precomputed flow hints](https://drive.google.com/drive/folders/1NU5SH3DdsFFI7wj_U6I6qhonZ2K69rFq?usp=sharing). Place them under the `data` folder as follows:
+Download [KITTI 2015 optical flow training set](http://www.cvlibs.net/datasets/kitti/eval_scene_flow.php?benchmark=stereo) and [precomputed flow hints](https://drive.google.com/drive/folders/1cJPyvB-EqeIBn448u3N2fIPdJ22C53Xi?usp=sharing). Place them under the `data` folder as follows:
 
 ```
 data

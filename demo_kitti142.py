@@ -91,9 +91,9 @@ if __name__ == "__main__":
     torch.cuda.synchronize()
     torch.no_grad()
 
-    select_model = 'qraft'
+    select_model = 'raw'
     if args.guided:
-        select_model = 'guided-qraft'
+        select_model = 'guided'
     checkpoint = 'weights/%s/%s.pth'%(select_model, args.model)
     model = torch.nn.DataParallel(QRAFT(args), device_ids=[0])
     model.load_state_dict(torch.load(checkpoint, map_location=torch.device('cuda')))

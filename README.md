@@ -51,7 +51,7 @@ source guided_flow_env/bin/activate
 pip install -r requirements.txt
 ```
 
-Compile the `guided_flow` module, written in C (required to handle warping collisions):
+Compile the `guided_flow` module, written in C (required for guided flow modulation):
 
 ```
 cd external/guided_flow

@@ -8,6 +8,8 @@ This code is provided to replicate results with flow hints obtained from LiDAR d
 
 [[Project page]](https://mattpoggi.github.io/projects/iccv2021poggi/) - [[Paper]](https://mattpoggi.github.io/assets/papers/poggi2021iccv.pdf) - [[Supplementary]](https://mattpoggi.github.io/assets/papers/poggi2021iccv_supp.pdf) 
 
+![Alt text](https://mattpoggi.github.io/assets/img/sensorguidedflow/teaser.png?raw=true "Sensor-Guided Optical Flow estimation")
+
 ## Reference
 
 If you find this code useful, please cite our work:
@@ -20,7 +22,7 @@ If you find this code useful, please cite our work:
   booktitle = {IEEE/CVF International Conference on Computer Vision (ICCV)},
   year = {2021}
 }
-```   
+```
 
 ## Contents
 

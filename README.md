@@ -107,10 +107,12 @@ weights
 You are now ready to run the `demo_kitti142.py` script:
 
 ```
-python demo_kitti142.py --model CTK --guided
+python demo_kitti142.py --model CTK --guided --out_dir results_CTK_guided/
 ```
 
 Use `--model` to specify the weights you want to load among C, CT, CTS and CTK. By default, raw models are loaded, specify `--guided` to load guided weights and enable sensor-guided optical flow.
+
+**Note:** Occasionally, the demo may run out of memory on ~12GB GPUs. The script saves intermediate results are saved in `--out_dir`. You can run again the script and it will skip all images for which intermediate results have been already saved in `--out_dir`, loading them from the folder.
 
 ## Contacts
 m [dot] poggi [at] unibo [dot] it

@@ -115,7 +115,7 @@ if __name__ == "__main__":
                 fl_list.append( np.load("%s/%s_fl.npy"%(args.out_dir,name)) )
                 pbar.update(1)
                 continue
-            epe, fl = validate_kitti(image1, image2, flow_gt, valid_gt, hints, valid_hints, name, model.module, root=args.val_root, output_path=args.out_dir, guided=args.guided, split142=("142" in args.dataset))
+            epe, fl = validate_kitti(image1, image2, flow_gt, valid_gt, hints, valid_hints, name, model.module, guided=args.guided)
             np.save("%s/%s_epe.npy"%(args.out_dir,name), epe)
             np.save("%s/%s_fl.npy"%(args.out_dir,name), fl)
             

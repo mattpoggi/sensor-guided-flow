@@ -120,8 +120,8 @@ In the end, the aforementioned command should print:
 Validation KITTI: 2.08, 5.97
 ```
 
-Numbers in Tab. 4 are obtained by running this code on a Titan Xp GPU, with PyTorch 1.7.0 
-We observed slight fluctuations in the numbers when running on different hardware (e.g., 3090 GPUs)
+Numbers in Tab. 4 are obtained by running this code on a Titan Xp GPU, with PyTorch 1.7.0. 
+We observed slight fluctuations in the numbers when running on different hardware (e.g., 3090 GPUs), mostly on raw models.
 
 ## Contacts
 m [dot] poggi [at] unibo [dot] it
